@@ -1,5 +1,7 @@
 const startButton = document.querySelector('.start-button');
+const restartButton = document.querySelector('.restart-button');
 const gameStart = document.querySelector('#game-start');
+const gameOver = document.querySelector('#game-over');
 
 startButton.addEventListener('click', function(event) {
   gameStart.classList.remove('is-open');
@@ -26,13 +28,15 @@ function displayFlags() {
         randomFlags.push(randomNumber);
       }
   }
-  console.log(randomFlags);
 
   let index = 0;
+  flags.forEach(function(flag){
+    if (flag.classList.contains('is-active')) {
+     flag.classList.remove('is-active');
+}
+  })
   flagsImage.forEach(function(image) {
-    console.log(index);
     let countryCode = (randomFlags[index].code).toLowerCase();
-    console.log(countryCode);
     image.setAttribute('src', `flags/${countryCode}.svg`);
     image.setAttribute('name', `${randomFlags[index].name}`);
     index++;
@@ -40,7 +44,8 @@ function displayFlags() {
   countryName.innerHTML = randomFlags[Math.floor(Math.random()*(randomFlags.length))].name;
 };
 
-
+let lives = document.querySelectorAll('.lives > img');
+let counter = 0;
 // add eventListener on flags + add +1 to score if match
 flagsImage.forEach(function(image) {
   image.addEventListener('click', function(event) {
@@ -49,6 +54,14 @@ flagsImage.forEach(function(image) {
       scoreValue++;
       score.innerHTML = 'Your score : <strong>' + scoreValue + '</strong>';
       displayFlags();
+    } else {
+      let parent = event.target.parentElement;
+      parent.classList.add('is-active');
+      lives[counter].classList.add('is-active');
+      counter++;
+      if (counter === 3) {
+        gameOver.classList.add('is-open');
+      }
     }
   })
 })

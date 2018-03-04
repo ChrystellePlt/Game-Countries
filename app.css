@@ -121,6 +121,10 @@ h2 {
     padding: 10px;
 }
 
+.flag img:hover {
+    cursor: pointer;
+}
+
 .flag.is-active {
     opacity: 0.2;
     cursor: not-allowed;
@@ -130,10 +134,6 @@ h2 {
     max-width: 100%;
     border: 2px solid #000;
     border-radius: 10px;
-}
-
-.flag img:hover {
-    cursor: pointer;
 }
 
 .score {
