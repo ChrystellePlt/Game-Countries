@@ -1,251 +1,251 @@
 var flagsData = [
  {
-  "name": "Albania ",
+  "name": "Albania",
   "code": "AL",
   "colors": ["red", "black"]
  },
  {
-  "name": "Andorra ",
+  "name": "Andorra",
   "code": "AD",
   "colors": ["blue", "yellow", "red"]
  },
  {
-  "name": "Austria ",
+  "name": "Austria",
   "code": "AT",
   "colors": ["red", "white"]
  },
  {
-  "name": "Belarus ",
+  "name": "Belarus",
   "code": "BY",
   "colors": ["red", "green"]
  },
  {
-  "name": "Belgium ",
+  "name": "Belgium",
   "code": "BE",
   "colors": ["black", "yellow", "red"]
  },
  {
-  "name": "Bosnia and Herzegovina ",
+  "name": "Bosnia and Herzegovina",
   "code": "BA",
   "colors": ["blue", "yellow"]
  },
  {
-  "name": "Bulgaria ",
+  "name": "Bulgaria",
   "code": "BG",
   "colors": ["white", "green", "red"]
  },
  {
-  "name": "Croatia ",
+  "name": "Croatia",
   "code": "HR",
   "colors": ["red", "white", "blue"]
  },
  {
-  "name": "Cyprus ",
+  "name": "Cyprus",
   "code": "CY",
   "colors": ["white"]
  },
  {
-  "name": "Czech Republic ",
+  "name": "Czech Republic",
   "code": "CZ",
   "colors": ["blue", "white", "red"]
  },
  {
-  "name": "Denmark ",
+  "name": "Denmark",
   "code": "DK",
   "colors": ["white", "red"]
  },
  {
-  "name": "Estonia ",
+  "name": "Estonia",
   "code": "EE",
   "colors": ["blue", "black", "white"]
  },
  {
-  "name": "Faroe Islands ",
+  "name": "Faroe Islands",
   "code": "FO",
   "colors": ["red", "white"]
  },
  {
-  "name": "Finland ",
+  "name": "Finland",
   "code": "FI",
   "colors": ["blue", "white"]
  },
  {
-  "name": "France ",
+  "name": "France",
   "code": "FR",
   "colors": ["blue", "white", "red"]
  },
  {
-  "name": "Germany ",
+  "name": "Germany",
   "code": "DE",
   "colors": ["black", "red", "yellow"]
  },
  {
-  "name": "Gibraltar ",
+  "name": "Gibraltar",
   "code": "GI",
   "colors": ["white", "red"]
  },
  {
-  "name": "Greece ",
+  "name": "Greece",
   "code": "GR",
   "colors": ["blue", "white"]
  },
  {
-  "name": "Hungary ",
+  "name": "Hungary",
   "code": "HU",
   "colors": ["red", "white", "green"]
  },
  {
-  "name": "Iceland ",
+  "name": "Iceland",
   "code": "IS",
   "colors": ["red", "blue"]
  },
  {
-  "name": "Ireland ",
+  "name": "Ireland",
   "code": "IE",
   "colors": ["green", "white", "orange"]
  },
  {
-  "name": "Isle of Man ",
+  "name": "Isle of Man",
   "code": "IM",
   "colors": ["red", "white"]
  },
  {
-  "name": "Italy ",
+  "name": "Italy",
   "code": "IT",
   "colors": ["green", "white", "red"]
  },
  {
-  "name": "Kosovo ",
+  "name": "Kosovo",
   "code": "RS",
   "colors": ["red", "blue", "white"]
  },
  {
-  "name": "Latvia ",
+  "name": "Latvia",
   "code": "LV",
   "colors": ["red", "white"]
  },
  {
-  "name": "Liechtenstein ",
+  "name": "Liechtenstein",
   "code": "LI",
   "colors": ["blue", "red"]
  },
  {
-  "name": "Lithuania ",
+  "name": "Lithuania",
   "code": "LT",
   "colors": ["yellow", "green", "red"]
  },
  {
-  "name": "Luxembourg ",
+  "name": "Luxembourg",
   "code": "LU",
   "colors": ["red", "white", "blue"]
  },
  {
-  "name": "Macedonia ",
+  "name": "Macedonia",
   "code": "MK",
   "colors": ["yellow", "red"]
  },
  {
-  "name": "Malta ",
+  "name": "Malta",
   "code": "MT",
   "colors": ["white", "red"]
  },
  {
-  "name": "Moldova ",
+  "name": "Moldova",
   "code": "MD",
   "colors": ["blue", "yellow", "red"]
  },
  {
-  "name": "Monaco ",
+  "name": "Monaco",
   "code": "MC",
   "colors": ["red", "white"]
  },
  {
-  "name": "Montenegro ",
+  "name": "Montenegro",
   "code": "ME",
   "colors": ["red", "yellow"]
  },
  {
-  "name": "Netherlands ",
+  "name": "Netherlands",
   "code": "NL",
   "colors": ["red", "white", "blue"]
  },
  {
-  "name": "Norway ",
+  "name": "Norway",
   "code": "NO",
   "colors": ["red", "blue"]
  },
  {
-  "name": "Poland ",
+  "name": "Poland",
   "code": "PL",
   "colors": ["red", "white"]
  },
  {
-  "name": "Portugal ",
+  "name": "Portugal",
   "code": "PT",
   "colors": ["green", "red"]
  },
  {
-  "name": "Romania ",
+  "name": "Romania",
   "code": "RO",
   "colors": ["blue", "yellow", "red"]
  },
  {
-  "name": "Russia ",
+  "name": "Russia",
   "code": "RU",
   "colors": ["white", "blue", "red"]
  },
  {
-  "name": "San Marino ",
+  "name": "San Marino",
   "code": "SM",
   "colors": ["white", "blue"]
  },
  {
-  "name": "Serbia ",
+  "name": "Serbia",
   "code": "RS",
   "colors": ["red", "blue", "white"]
  },
  {
-  "name": "Slovakia ",
+  "name": "Slovakia",
   "code": "SK",
   "colors": ["red", "blue", "white"]
  },
  {
-  "name": "Slovenia ",
+  "name": "Slovenia",
   "code": "SI",
   "colors": ["red", "blue", "white"]
  },
  {
-  "name": "Spain ",
+  "name": "Spain",
   "code": "ES",
   "colors": ["red", "yellow"]
  },
  {
-  "name": "Sweden ",
+  "name": "Sweden",
   "code": "SE",
   "colors": ["yellow", "blue"]
  },
  {
-  "name": "Switzerland ",
+  "name": "Switzerland",
   "code": "CH",
   "colors": ["red", "white"]
  },
  {
-  "name": "Ukraine ",
+  "name": "Ukraine",
   "code": "UA",
   "colors": ["blue", "yellow"]
  },
  {
-  "name": "United Kingdom ",
+  "name": "United Kingdom",
   "code": "GB",
   "colors": ["red", "blue"]
  },
  {
-  "name": "Vatican city ",
+  "name": "Vatican city",
   "code": "VA",
   "colors": ["yellow", "white"]
  },
  {
-  "name": "Yugoslavia ",
+  "name": "Yugoslavia",
   "code": "RS",
   "colors": ["red", "blue", "white"]
  },

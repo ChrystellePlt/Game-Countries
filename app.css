@@ -132,6 +132,10 @@ h2 {
     border-radius: 10px;
 }
 
+.flag img:hover {
+    cursor: pointer;
+}
+
 .score {
     padding: 10px;
     margin: 40px auto;
