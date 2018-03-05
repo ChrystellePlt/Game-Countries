@@ -2,9 +2,23 @@ const startButton = document.querySelector('.start-button');
 const restartButton = document.querySelector('.restart-button');
 const gameStart = document.querySelector('#game-start');
 const gameOver = document.querySelector('#game-over');
+var timeLeft = 20;
 
 startButton.addEventListener('click', function(event) {
   gameStart.classList.remove('is-open');
+  var timer = document.querySelector('.time');
+
+  var timerId = setInterval(countdown, 1000);
+
+  function countdown() {
+    if (timeLeft == 0) {
+      clearTimeout(timerId);
+      gameOver.classList.add('is-open');
+    } else {
+      timer.innerHTML = '<span>' + timeLeft + '</span> s';
+      timeLeft--;
+    }
+  }
 })
 
 const score = document.querySelector('.score');
@@ -49,9 +63,10 @@ let counter = 0;
 // add eventListener on flags + add +1 to score if match
 flagsImage.forEach(function(image) {
   image.addEventListener('click', function(event) {
-    let targetNameAttribute = event.target.getAttribute('name');
-    if (targetNameAttribute === countryName.textContent) {
+    let imageAttribute = image.getAttribute('name');
+    if (imageAttribute === countryName.textContent) {
       scoreValue++;
+      timeLeft += 3;
       score.innerHTML = 'Your score : <strong>' + scoreValue + '</strong>';
       displayFlags();
     } else {
