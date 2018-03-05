@@ -66,7 +66,11 @@ flagsImage.forEach(function(image) {
     let imageAttribute = image.getAttribute('name');
     if (imageAttribute === countryName.textContent) {
       scoreValue++;
-      timeLeft += 3;
+      if (timeLeft < 28) {
+        timeLeft += 3;
+      } else {
+        timeLeft += 30 - timeLeft;
+      }
       score.innerHTML = 'Your score : <strong>' + scoreValue + '</strong>';
       displayFlags();
     } else {
